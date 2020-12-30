@@ -32,7 +32,7 @@ module.exports = (function (settings) {
 })(require("./nightwatch.json"));
 ```
 
-The ```nightwatch.conf.js``` content should be moved to ```nightwatch.json```
+The original ```nightwatch.conf.js``` content should be moved to ```nightwatch.json```
 
 For instance:
 
@@ -52,6 +52,7 @@ For instance:
             }
         }
     }    
-}```
+}
+```
 
 
