@@ -29,7 +29,8 @@ module.exports = (function (settings) {
   settings.test_workers = false;
   settings.webdriver.server_path = chromedriver.path;
   return settings;
-})(require("./nightwatch.json"));```
+})(require("./nightwatch.json"));
+```
 
 The ```nightwatch.conf.js``` content should be moved to ```nightwatch.json```
 
