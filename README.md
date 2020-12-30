@@ -24,12 +24,12 @@ Please check that the "webdriver.server_path" config property is set correctly.
 
 To resolve it ```nightwatch.conf.js``` file needs to be changed to the following:
 
-```const chromedriver = require("chromedriver");
+```const chromedriver = require("chromedriver")
 module.exports = (function (settings) {
-  settings.test_workers = false;
-  settings.webdriver.server_path = chromedriver.path;
-  return settings;
-})(require("./nightwatch.json"));
+  settings.test_workers = false
+  settings.webdriver.server_path = chromedriver.path
+  return settings
+})(require("./nightwatch.json"))
 ```
 
 The original ```nightwatch.conf.js``` content should be moved to ```nightwatch.json```
