@@ -1,0 +1,24 @@
+{
+  "name": "nightwatch-sample",
+  "version": "1.0.0",
+  "description": "Exploring nightwatch testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianavolt/nightwatch-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianavolt/nightwatch-sample/issues"
+  },
+  "homepage": "https://github.com/dianavolt/nightwatch-sample#readme",
+  "devDependencies": {
+    "chromedriver": "^87.0.4",
+    "nightwatch": "^1.5.1"
+  }
+}
